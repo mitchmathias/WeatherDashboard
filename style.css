@@ -1,0 +1,87 @@
+.mainHeader {
+    background-color: rgb(68, 70, 83);
+    color: blanchedalmond;
+    font-size: xx-large;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.sidePanel {
+    position: fixed; 
+    width: 300px;
+    margin-top: 80px;
+    height: 100%;
+    background-color: yellow;
+}
+
+#searchText {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+#searchButton {
+    display: inline-block;
+    width: 70px;
+    margin-right: 5px;
+    margin-top: 15x;
+}
+
+.cityItem {
+    width: 70%;
+    margin-bottom: 10px;
+    background-color: pink;
+    height: 40px;
+    padding: 8px;
+}
+
+.cityItem:hover {
+    cursor: pointer;
+}
+
+.cityList {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.mainGrid {
+    background-color: green;
+    margin-left: 300px;
+    padding-top: 80px;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.detailPanel {
+    background-color: purple;
+    height: 60%;
+    min-height: 300px;
+
+}
+
+.forecastPanel {
+    background-color: orange;
+    height: 40%;
+}
+
+.forecastDay {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-left: 10px;
+}
+
+#cityInfo{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+#fiveDayForecast {
+    margin-left: 10px;
+}
