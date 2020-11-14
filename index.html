@@ -19,55 +19,54 @@
     <div class="sidePanel">
         <div>
             <input id="citySearch" type="search" placeholder="City" aria-label="Search">
-            <button id="searchButton" type="submit">Search</button>
+            <button id="searchButton" type="submit" onclick="getWeatherData()">Search</button>
         </div>
-        <ul class="cityList">
-            
-        </ul>
+        <ul class="cityList"></ul>
     </div>
     <!-- main grid -->
     <div class="mainGrid">
         <div class="detailPanel">
             <div id="cityInfo">
-                <h1 id="city">Atlanta (11/12/2020)</h1>
-                <h3 id="temp">90.9 deg F</h3>
-                <h3 id="humidity">41%</h3>
-                <h3 id="wind">4.7 mph</h3>
-                <h3 id="uvindex">9.49</h3>
+                <h1 id="city"></h1>
+                <img id="icon"></img>
+                <h3 id="temp"></h3>
+                <h3 id="humidity"></h3>
+                <h3 id="wind"></h3>
+                <h3 id="uvindex"></h3>
             </div>
         </div>
         <div class="forecastPanel">
             <h2 id="fiveDayForecast">5 Day Forecast:</h2>
             <div id="forecastRow">
                 <div id="day1" class="forecastDay">
-                    <h3 id="day1Date">date</h3>
+                    <h5 id="day1Date"></h5>
                     <img id="day1Icon"></img>
-                    <p id="day1Temp">temp</p>
-                    <p id="day1Humidity">humidity</p>
+                    <p id="day1Temp"></p>
+                    <p id="day1Humidity"></p>
                 </div>
                 <div id="day2" class="forecastDay">
-                    <h3 id="day2Date">date</h3>
+                    <h5 id="day2Date"></h5>
                     <img id="day2Icon"></img>
-                    <p id="day2Temp">temp</p>
-                    <p id="day2Humidity">humidity</p>
+                    <p id="day2Temp"></p>
+                    <p id="day2Humidity"></p>
                 </div>
                 <div id="day3" class="forecastDay">
-                    <h3 id="day3Date">date</h3>
+                    <h5 id="day3Date"></h5>
                     <img id="day3Icon"></img>
-                    <p id="day3Temp">temp</p>
-                    <p id="day3Humidity">humidity</p>
+                    <p id="day3Temp"></p>
+                    <p id="day3Humidity"></p>
                 </div>
                 <div id="day4" class="forecastDay">
-                    <h3 id="day4Date">date</h3>
+                    <h5 id="day4Date"></h5>
                     <img id="day4Icon"></img>
-                    <p id="day4Temp">temp</p>
-                    <p id="day4Humidity">humidity</p>
+                    <p id="day4Temp"></p>
+                    <p id="day4Humidity"></p>
                 </div>
                 <div id="day5" class="forecastDay">
-                    <h3 id="day5Date">date</h3>
+                    <h5 id="day5Date"></h5>
                     <img id="day5Icon"></img>
-                    <p id="day5Temp">temp</p>
-                    <p id="day5Humidity">humidity</p>
+                    <p id="day5Temp"></p>
+                    <p id="day5Humidity"></p>
                 </div>
             </div>
         </div>
