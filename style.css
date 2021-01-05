@@ -66,7 +66,7 @@
 }
 
 .forecastPanel {
-    background-color: rgb(154, 106, 243);
+    background-color: rgb(84, 100, 245);
     height: 40%;
     border: 4px;
 }
@@ -75,7 +75,7 @@
     display: inline-block;
     width: 150px;
     height: 150px;
-    background-color: rgba(100, 160, 192, 0.815);
+    background-color: rgb(126, 195, 212);
     margin-left: 10px;
 }
 

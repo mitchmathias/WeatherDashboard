@@ -1,8 +1,28 @@
-# WeatherDashboard
-https://mitchmathias.github.io/WeatherDashboard/.
+# Weather DashBoard ![badge](https://img.shields.io/badge/license-MIT-blue)
 
-View current weather data for any city you choose
+## Description 
 
-Enter cities in the search bar to get current weather data for today and the next 5 days, and reclick recent cities to go back to their weather.
+A website that displays todays forecast as well as the next five days for any city searched. It shows the date as well as Temperature, Humidity, and a forecasst icon with the conditions. This app uses https://openweathermap.org/api for all weather data.
+
+## Installation 
+
+Type a city and click search!
+
+## Usage 
+
+Type a city and click search!
+
+## Contributions 
+
+Mitch Mathias
+
+## Test 
+
+None
+
+## Questions 
+
+Email: Mitch.Mathias@gmail.com
+GitHub: https://github.com/mitchmathias
 
 ![screenshot](images\screenshot.png)
