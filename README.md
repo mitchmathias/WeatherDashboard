@@ -2,7 +2,7 @@
 
 ## Description 
 
-A website that displays todays forecast as well as the next five days for any city searched. It shows the date as well as Temperature, Humidity, and a forecasst icon with the conditions. This app uses https://openweathermap.org/api for all weather data.
+A website that displays todays forecast as well as the next five days for any city searched. It shows the date as well as Temperature, Humidity, and a forecast icon with the conditions. This app uses https://openweathermap.org/api for all weather data.
 
 ## Installation 
 
